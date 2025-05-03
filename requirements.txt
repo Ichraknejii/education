@@ -1,0 +1,14 @@
+flask
+flask-cors
+requests
+pandas
+numpy
+scikit-learn
+scikeras
+imbalanced-learn
+matplotlib
+seaborn
+keras
+tensorflow
+google-api-python-client
+mistralai
