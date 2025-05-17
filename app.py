@@ -35,7 +35,7 @@ def generer_question():
     )
     return jsonify({
         "theme": theme,
-        "question": response.choices[0].message.content.strip()  # uniquement l’énoncé
+        "question": response.choices[0].message.content.strip() 
     })
 
 
@@ -66,6 +66,7 @@ def corriger_reponse():
         "bonne_reponse": reponse_correcte,
         "correction": correction
     })
+
 
 # ------------ ROUTE : Recommandation de vidéo YouTube ------------
 @app.route('/api/video', methods=['GET'])
